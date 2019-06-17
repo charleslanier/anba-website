@@ -1,0 +1,59 @@
+.Nav {
+	background: #000;
+	display: flex;
+	flex-direction: row;
+	height: 80px;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.Logo {
+	width: 140px;
+	margin: 16px 52px;
+}
+
+.MenuBox {
+	position: absolute;
+	right: 52px;
+	top: 0;
+	left: 270px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 26px;
+}
+
+.Menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.MenuText {
+	width: 60%
+}
+
+.MenuIcon {
+	width: 20%
+}
+
+h4 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 18px;
+	letter-spacing: 1.3px;
+	font-weight: 600;
+	
+}
+
+h4.Selected, h4:hover {
+	text-decoration: underline;
+}
+
+h4, .MediumIcon {
+	cursor: pointer;
+	margin-top: 40px;
+	transform: translateY(-50%);
+}

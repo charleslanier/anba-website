@@ -1,0 +1,11 @@
+.Sidebar {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	left: 0;
+	top: 184px;
+	bottom: 0;
+	width: 166px;
+	padding: 0 39px;
+}

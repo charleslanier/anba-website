@@ -1,0 +1,36 @@
+.Category {
+	height: 40px;
+	margin: 20px 0;
+}
+
+.Category img {
+	float: left;
+	height: 40px;
+	max-width: 55px;
+	margin: 0 27.5px;
+	transform: translateX(-50%);
+}
+
+.Category p {
+	font-size: 16px;
+	margin: 20px 0 0;
+	transform: translateY(-50%);
+	letter-spacing: 1.2px;
+	cursor: pointer;
+}
+
+.Category p:hover, .Category p.Selected {
+	text-decoration: underline;
+}
+
+.CategoryIcon {
+	width: 55px;
+	height: 40px;
+	float: left;
+}
+
+.CategoryName {
+	margin-left: 28px;
+	height: 40px;
+	float: left;
+}

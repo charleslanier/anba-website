@@ -1,0 +1,23 @@
+.Article {
+	width: 33.33333%;
+	margin-bottom: 20px;
+}
+
+.Article img {
+	width: calc(100% - 40px);
+	margin: 0 20px;
+}
+
+.Article p {
+	text-align: center;
+}
+
+.ArticleName {
+	letter-spacing: 1.2px;
+	font-weight: 600;
+}
+
+.ArticlePrice {
+	letter-spacing: 1.1px;
+	font-weight: 400;
+}
